@@ -203,7 +203,23 @@ body{
 
 }
 
-  
+.slider-button{
+    background-color: #f0d115;
+    margin-top: 22%;
+    margin-left: 17%;
+    z-index: 4;
+    padding: 10px;
+    text-transform: uppercase;
+    font-family: "Raleway";
+    font-size: 13px;
+    font-weight: 800;
+    border: 0;
+    border-radius: 5px;
+}
+.slider-button:hover{
+    background-color: #666;
+    color: white;
+}
 
   
   @media only screen and (max-width: 600px){
