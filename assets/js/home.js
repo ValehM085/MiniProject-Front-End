@@ -58,38 +58,73 @@ cardRightImage.forEach((item, index) => {
 
 const collectionButton = document.querySelector(".navbar-collection-button");
 const collectionDropdown = document.querySelector(".collection-dropdown");
-collectionButton.addEventListener("mouseover",function(){
+collectionButton.addEventListener("mouseover", function () {
     collectionDropdown.style.display = "block";
 })
-collectionButton.addEventListener("mouseout",function(){
+collectionButton.addEventListener("mouseout", function () {
     collectionDropdown.style.display = "none"
 })
 
 const productButton = document.querySelector(".navbar-product-button");
 const productDropdown = document.querySelector(".product-dropdown");
-productButton.addEventListener("mouseover",function(){
+productButton.addEventListener("mouseover", function () {
     productDropdown.style.display = "block";
 })
-productButton.addEventListener("mouseout",function(){
+productButton.addEventListener("mouseout", function () {
     productDropdown.style.display = "none"
 })
 
 const homeButton = document.querySelector(".navbar-home-button");
 const homeDropdown = document.querySelector(".home-dropdown");
-homeButton.addEventListener("mouseover",function(){
+homeButton.addEventListener("mouseover", function () {
     homeDropdown.style.display = "block";
 })
-homeButton.addEventListener("mouseout",function(){
+homeButton.addEventListener("mouseout", function () {
     homeDropdown.style.display = "none"
 })
 
 const megamenuButton = document.querySelector(".navbar-megamenu-button");
 const megamenuDropdown = document.querySelector(".megamenu-dropdown");
-megamenuButton.addEventListener("mouseover",function(){
+megamenuButton.addEventListener("mouseover", function () {
     megamenuDropdown.style.display = "block";
 })
-megamenuButton.addEventListener("mouseout",function(){
+megamenuButton.addEventListener("mouseout", function () {
     megamenuDropdown.style.display = "none"
 })
+
+const featureButton = document.querySelector(".navbar-feature-button");
+const featureDropdown = document.querySelector(".feature-dropdown");
+featureButton.addEventListener("mouseover", function () {
+    featureDropdown.style.display = "block";
+})
+featureButton.addEventListener("mouseout", function () {
+    featureDropdown.style.display = "none"
+})
+
+const shortcodeButton = document.querySelector(".navbar-shortcode-button");
+const shortcodeDropdown = document.querySelector(".shortcode-dropdown");
+shortcodeButton.addEventListener("mouseover", function () {
+    shortcodeDropdown.style.display = "block";
+})
+shortcodeButton.addEventListener("mouseout", function () {
+    shortcodeDropdown.style.display = "none"
+})
+
+const chevroletButon = document.querySelectorAll(".honda")[1];
+const chevrolet = document.querySelector(".chevrolet");
+const chevroletPlus = chevroletButon.querySelector(".fa-plus");
+const chevroletMinus = chevroletButon.querySelector(".fa-minus");
+
+chevroletButon.addEventListener("mouseover", function () {
+    chevrolet.style.display = "block";
+    chevroletPlus.classList.add("d-none"); 
+    chevroletMinus.classList.remove("d-none");
+});
+
+chevroletButon.addEventListener("mouseout", function () {
+    chevrolet.style.display = "none";
+    chevroletPlus.classList.remove("d-none");
+    chevroletMinus.classList.add("d-none");
+});
 
 

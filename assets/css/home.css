@@ -755,6 +755,86 @@ a{
 .megamenu-text:hover{
     color: #f0d115;
 }
+.feature-dropdown{
+    background-color: #232323;
+    width: 170%;
+    top: 100%;
+    z-index: 200000;
+    left: 0;
+    text-align: start;
+    color: white;
+    font-family: "Raleway";
+    font-weight: 400;
+    display: none;
+}
+.feature-dropdown li:hover{
+    color: #f0d115;
+}
+.shortcode-dropdown{
+    background-color: #232323;
+    width: 170%;
+    top: 100%;
+    z-index: 200000;
+    left: 0;
+    text-align: start;
+    color: white;
+    font-family: "Raleway";
+    font-weight: 400;
+    display: none;
+}
+.shortcode-dropdown li:hover{
+    color: #f0d115;
+}
+.browse-categories-dropdown{
+    background-color: #f0d115;
+    top: 100%;
+    width: 100%;
+    height: 1050%;
+}
+.honda{
+    background-color: #f0d115;
+}
+.honda i{
+    margin-left: 80px;
+}
+.car-logo{
+    margin-left: 10px;
+}
+.car-brand{
+    margin-left: 20px;
+}
+.car:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.car{
+    height: 30px;
+}
+.chevrolet{
+    left: 81.5%;
+    width: 500px;
+    height: 100%;
+    top: 0;
+    z-index: 1000001;
+}
+.chevrolet-sidebar-text{
+    font-family: "Raleway";
+    text-transform: uppercase;
+    color: #666;
+    font-weight: 600;
+}
+.chevrolet-sidebar-text:hover{
+    color: black;
+    cursor: pointer;
+}
+.chevrolet a{
+    text-decoration: none;
+    color: #666;
+}
+.chevrolet a:hover{
+    color: #f0d115;
+}
+
   @media only screen and (max-width: 600px){
     
   }
