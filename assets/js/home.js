@@ -117,6 +117,7 @@ const chevroletMinus = chevroletButon.querySelector(".fa-minus");
 
 chevroletButon.addEventListener("mouseover", function () {
     chevrolet.style.display = "block";
+<<<<<<< HEAD
     chevroletPlus.classList.add("d-none");
     chevroletMinus.classList.remove("d-none");
 });
@@ -152,5 +153,16 @@ browseCategoriesButton.addEventListener("mouseout",function(){
 
 
 
+=======
+    chevroletPlus.classList.add("d-none"); 
+    chevroletMinus.classList.remove("d-none");
+});
+
+chevroletButon.addEventListener("mouseout", function () {
+    chevrolet.style.display = "none";
+    chevroletPlus.classList.remove("d-none");
+    chevroletMinus.classList.add("d-none");
+});
+>>>>>>> eb5299d89cf48497bf22f14c51525305a2ea0729
 
 
