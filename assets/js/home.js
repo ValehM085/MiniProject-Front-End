@@ -56,4 +56,40 @@ cardRightImage.forEach((item, index) => {
 });
 
 
+const collectionButton = document.querySelector(".navbar-collection-button");
+const collectionDropdown = document.querySelector(".collection-dropdown");
+collectionButton.addEventListener("mouseover",function(){
+    collectionDropdown.style.display = "block";
+})
+collectionButton.addEventListener("mouseout",function(){
+    collectionDropdown.style.display = "none"
+})
+
+const productButton = document.querySelector(".navbar-product-button");
+const productDropdown = document.querySelector(".product-dropdown");
+productButton.addEventListener("mouseover",function(){
+    productDropdown.style.display = "block";
+})
+productButton.addEventListener("mouseout",function(){
+    productDropdown.style.display = "none"
+})
+
+const homeButton = document.querySelector(".navbar-home-button");
+const homeDropdown = document.querySelector(".home-dropdown");
+homeButton.addEventListener("mouseover",function(){
+    homeDropdown.style.display = "block";
+})
+homeButton.addEventListener("mouseout",function(){
+    homeDropdown.style.display = "none"
+})
+
+const megamenuButton = document.querySelector(".navbar-megamenu-button");
+const megamenuDropdown = document.querySelector(".megamenu-dropdown");
+megamenuButton.addEventListener("mouseover",function(){
+    megamenuDropdown.style.display = "block";
+})
+megamenuButton.addEventListener("mouseout",function(){
+    megamenuDropdown.style.display = "none"
+})
+
 
