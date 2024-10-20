@@ -121,6 +121,7 @@ chevroletButon.addEventListener("mouseout", function () {
     chevroletMinus.classList.add("d-none");
 
 });
+
 const browseCategoriesButton = document.querySelector(".browse-categories-button");
 const browseCategoriesDropdown = document.querySelector(".browse-categories-dropdown");
 browseCategoriesButton.addEventListener("mouseover",function(){

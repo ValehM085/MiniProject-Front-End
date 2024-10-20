@@ -123,14 +123,15 @@ chevroletButon.addEventListener("mouseout", function () {
 });
 const browseCategoriesButton = document.querySelector(".browse-categories-button");
 const browseCategoriesDropdown = document.querySelector(".browse-categories-dropdown");
-browseCategoriesButton.addEventListener("mouseover",function(){
-    browseCategoriesDropdown.style.display ="block";
-    document.querySelector(".left-filters").style.marginTop = "400px";
-})
-browseCategoriesButton.addEventListener("mouseout",function(){
-    browseCategoriesDropdown.style.display = "none";
-    document.querySelector(".left-filters").style.marginTop = "0px";
+browseCategoriesButton.addEventListener("click",function(){
+    if(browseCategoriesDropdown.style.display == "block"){
+        browseCategoriesDropdown.style.display ="none";
+        document.querySelector(".left-filters").style.marginTop = "0px";
 
+    }else{
+        browseCategoriesDropdown.style.display ="block";
+        document.querySelector(".left-filters").style.marginTop = "400px";
+    }
 })
 // chevrolet-sidebar-text
 // 
